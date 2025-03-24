@@ -1,5 +1,5 @@
 # Scroll Animations
-
+![Scroll Animation Preview](assets/scroll-preview.png)
 An engaging and interactive animation experience created using pure HTML, CSS, and JavaScript. This project showcases smooth, seamless image transitions that respond dynamically to user scrolling, similar to animations found on Apple's product pages.
 
 ## Table of Contents
