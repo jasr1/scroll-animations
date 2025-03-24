@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/main.css?v2.2">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preload" href="./img/1.jpg" as="image">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet"> 
+    <title>Jas Randhawa | Scroll Animations</title>
+</head>
+<body>
+    <h1>Scroll Animations</h1>
+
+    <div class="cta">Start scrolling to see the animations in action.</div>
+    <div class="preloadedimages" style="display: none;"></div>
+    <div class="main-content-wrapper visible">
+        <div class="canvas-constraint">
+            <img class="preloadedimage" src="./img/0.jpg" alt="image-of-watch">
+            <canvas class="canvas"></canvas>
+        </div>
+        <div class="text">
+            <div class="name-and-reset">
+                <h2>Customizations</h2>
+                <button class="reset-button" onclick="resetCustomizations()">Reset All</button>
+            </div>
+            <div class="zoom-in-buttons">
+                <button class="zoom" onclick="zoomIn()">Zoom In</button>
+                <button class="large-zoom" onclick="setLargeZoom()">More Zoom!</button>
+            </div>
+            <div class="zoom-out-buttons">
+                <button class="zoom-out" onclick="zoomOut()">Zoom Out</button>
+                <button class="large-zoom-out" onclick="setLargeZoomOut()">Zoom to Nothing</button>
+            </div>
+        </div>
+    </div>
+    <script src="scripts/script.js?v2.0"></script>
+</body>
+</html>
